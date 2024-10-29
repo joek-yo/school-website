@@ -5,6 +5,12 @@ nav {
   padding: 10px; /* Padding around the nav */
 }
 
+nav h1 {
+  color: white; /* White text color for the school name */
+  margin: 0; /* Remove margin */
+  font-size: 1.5em; /* Increase font size */
+}
+
 nav ul {
   list-style-type: none; /* Remove bullet points */
   margin: 0; /* Remove margin */
