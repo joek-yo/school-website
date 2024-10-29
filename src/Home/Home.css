@@ -1,0 +1,62 @@
+/* Home.css - Styles for Home Page */
+
+.home {
+  padding: 20px;
+}
+
+.welcome-section {
+  text-align: center;
+  padding: 20px;
+  background-color: #001f3f; /* Navy blue background */
+  color: #87CEEB; /* Sky blue text */
+}
+
+.mission-vision {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f5f5f5; /* Light background */
+}
+
+.mission,
+.vision {
+  width: 45%;
+}
+
+.mission h3,
+.vision h3 {
+  color: #001f3f; /* Navy blue for titles */
+}
+
+.quick-links {
+  padding: 20px;
+  background-color: #87CEEB; /* Sky blue background */
+  color: #001f3f; /* Navy blue text */
+}
+
+.quick-links ul {
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+.image-gallery {
+  padding: 20px;
+}
+
+.image-gallery h3 {
+  color: #001f3f; /* Navy blue for section title */
+  text-align: center;
+}
+
+.gallery-grid {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.gallery-grid img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
