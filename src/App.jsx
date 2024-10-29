@@ -7,10 +7,12 @@ import About from './About/About';
 import Admissions from './Admissions/Admissions';
 import Gallery from './Gallery/Gallery';
 import Contact from './Contact/Contact';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <Router>
+      <Navbar /> {/* Adding the Navbar component */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

@@ -1,0 +1,27 @@
+/* Navbar.css - Basic styles for the Navigation Bar */
+
+nav {
+  background-color: #4CAF50; /* Green background */
+  padding: 10px; /* Padding around the nav */
+}
+
+nav ul {
+  list-style-type: none; /* Remove bullet points */
+  margin: 0; /* Remove margin */
+  padding: 0; /* Remove padding */
+  display: flex; /* Align items in a row */
+}
+
+nav li {
+  margin-right: 20px; /* Spacing between items */
+}
+
+nav a {
+  color: white; /* White text color */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Make text bold */
+}
+
+nav a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
