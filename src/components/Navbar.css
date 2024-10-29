@@ -1,12 +1,23 @@
 /* Navbar.css - Basic styles for the Navigation Bar */
 
 nav {
-  background-color: #4CAF50; /* Green background */
+  background-color: #001f3f; /* Navy blue background */
   padding: 10px; /* Padding around the nav */
 }
 
+.logo-section {
+  display: flex;
+  align-items: center; /* Align logo and school name vertically */
+}
+
+.logo {
+  width: 50px; 
+  height: 50px;
+  margin-right: 15px; /* Space between logo and school name */ 
+}
+
 nav h1 {
-  color: white; /* White text color for the school name */
+  color: #87CEEB; /* Sky blue color for the school name */
   margin: 0; /* Remove margin */
   font-size: 1.5em; /* Increase font size */
 }
@@ -23,7 +34,7 @@ nav li {
 }
 
 nav a {
-  color: white; /* White text color */
+  color: #87CEEB; /* Sky blue color for links */
   text-decoration: none; /* Remove underline */
   font-weight: bold; /* Make text bold */
 }
